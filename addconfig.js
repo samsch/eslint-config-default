@@ -41,18 +41,18 @@ try {
 
 Promise.resolve()
 	.then(() => {
-		logInfo('Installing @samsch/eslint-default@latest');
+		logInfo('Installing @samsch/eslint-config-default@latest');
 		return new Promise((resolve, reject) => {
 			// prettier-ignore
-			const install = spawn('npm', ['i', '-D', '@samsch/eslint-default@latest']);
+			const install = spawn('npm', ['i', '-D', '@samsch/eslint-config-default@latest']);
 			install.on('close', code => {
 				if (code === 0) {
-					logInfo('Finished installing @samsch/eslint-default@latest');
+					logInfo('Finished installing @samsch/eslint-config-default@latest');
 					resolve();
 				} else {
 					reject(
 						new Error(
-							`"npm i -D @samsch/eslint-default@latest" failed with code ${code}`,
+							`"npm i -D @samsch/eslint-config-default@latest" failed with code ${code}`,
 						),
 					);
 				}

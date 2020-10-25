@@ -1,4 +1,4 @@
-# @samsch/eslint-default
+# @samsch/eslint-config-default
 
 My personal eslint config.
 
@@ -8,7 +8,7 @@ Use by adding a `.eslintrc.js` file to your project root with this content:
 'use strict';
 
 module.exports = {
-  extends: '@samsch/eslint-default',
+  extends: '@samsch/eslint-config-default',
 };
 ```
 

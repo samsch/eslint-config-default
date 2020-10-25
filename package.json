@@ -11,7 +11,7 @@
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git@github.com:samsch/eslint-default.git"
+    "url": "git@github.com:samsch/eslint-config-default.git"
   },
   "bin": "./addconfig.js",
   "dependencies": {

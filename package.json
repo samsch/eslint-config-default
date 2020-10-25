@@ -1,6 +1,6 @@
 {
-  "name": "@samsch/eslint-default",
-  "version": "2.0.0",
+  "name": "@samsch/eslint-config-default",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
